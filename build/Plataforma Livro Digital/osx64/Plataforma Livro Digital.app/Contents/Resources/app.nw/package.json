@@ -1,0 +1,13 @@
+{
+  "name": "Plataforma Livro Digital",
+  "version": "1.0.0",
+  "description": "Plataforma de Livros Digitais",
+  "main": "public/index.html",
+  "window":{
+    "toolbar": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tiago Lima"
+}
