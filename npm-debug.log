@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 error install Couldn't read dependencies
+5 verbose stack Error: Invalid name: "Plataforma Livro Digital"
+5 verbose stack     at ensureValidName (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:322:15)
+5 verbose stack     at Object.module.exports.fixNameField (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:211:5)
+5 verbose stack     at c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:30:38
+5 verbose stack     at Array.forEach (native)
+5 verbose stack     at normalize (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:29:15)
+5 verbose stack     at final (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:368:33)
+5 verbose stack     at then (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:127:33)
+5 verbose stack     at c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:332:40
+5 verbose stack     at evalmachine.<anonymous>:334:14
+5 verbose stack     at c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:102:5
+6 verbose cwd c:\Users\tiago.lima\Desktop\Plataforma-Livro-Digital
+7 error Windows_NT 6.1.7601
+8 error argv "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+9 error node v0.12.2
+10 error npm  v2.7.4
+11 error Invalid name: "Plataforma Livro Digital"
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]

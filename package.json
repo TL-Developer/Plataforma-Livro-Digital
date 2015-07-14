@@ -3,11 +3,21 @@
   "version": "1.0.0",
   "description": "Plataforma de Livros Digitais",
   "main": "public/index.html",
-  "window":{
-    "toolbar": false
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon nwbuild --run ./"
   },
-  "author": "Tiago Lima"
+  "author": "Tiago Lima",
+  "window": {
+    "title": "Livro Digital",
+    "icon": "public/icon.png",
+    "toolbar": false,
+    "width": 1000,
+    "height": 600,
+    "min_width": 1000,
+    "min_height": 500
+  },
+  "webkit": {
+    "plugin": true
+  }
 }

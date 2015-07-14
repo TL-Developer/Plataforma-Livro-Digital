@@ -1,0 +1,146 @@
+$headerTemplate: #2a236a;
+
+// div{
+// 	border: 1px solid red;
+// }
+
+.header{
+	background: $headerTemplate;
+	height: 60px;
+	top: 0;
+	position: fixed;
+
+	.separador{
+		float: left;
+		margin: 13px 18px;
+	}
+
+	.principal{
+		float: left;
+
+		.engrenagem{
+			width: 38px;
+			float: left;
+			margin: 13px 0;
+			cursor: pointer;
+		}
+
+		.titulo{
+			width: 260px;
+			float: left;
+
+			h1{
+				color: #fff;
+				font-size: 24px;
+				margin: 0;
+				padding: 18px 0px;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.opcionais{
+		float: right;
+
+		.busca{
+			float: left;
+			margin: 13px 0;
+		}
+
+		.logoEditora{
+			float: left;
+			margin: 6px 0;
+		}
+
+		.ajuda{
+			float: left;
+			margin: 13px 0;
+			cursor: pointer;
+		}
+	}
+}
+
+
+.footer{
+	background: $headerTemplate;
+	height: 41px;
+	position: fixed;
+	bottom: 0;
+
+	.principal{
+		position: absolute;
+		left: 15px;
+		width: 350px;
+		top: 0;
+
+		h1{
+			color: #fff;
+			font-size: 20px;
+			margin: 0;
+			float: left;
+			
+			span{
+				cursor: pointer;
+				color: #fff;
+				font-size: 25px;
+				margin: 0;
+				padding: 10px 5px 0 0;
+			}
+		}
+
+		.oeds{
+			float: left;
+			width: 105px;
+			height: 28px;
+			background: #fff;
+			border-radius: 5px;
+			text-align: center;
+			margin: 5px 60px;
+			padding: 1px 0;
+			cursor: pointer;
+			color: #575757;
+			font-size: 18px;
+		}
+	}
+
+	.paginacao{
+		width: 145px;
+		margin: -15px auto;
+		background: $headerTemplate;
+		border-radius: 5px;
+		height: 50px;
+		padding: 10px 5px;
+
+		.setaEsquerda{
+			float: left;
+			cursor: pointer;
+			margin: 2px 0;
+		}
+
+		form{
+			float: left;
+
+			input{
+				width: 70px;
+				margin: 0 0 0 2px;
+				text-align: center;
+				font-size: 18px;
+				color: #575757;
+			}
+		}
+
+		.setaDireita{
+			float: right;
+			cursor: pointer;
+			margin: 2px 0;
+		}
+	}
+
+	.opcionais{
+		position: absolute;
+		right: 15px;
+		width: 350px;
+		margin: 10px 0;
+		top: 0;
+	}
+}
