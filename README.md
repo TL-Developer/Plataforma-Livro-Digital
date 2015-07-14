@@ -1,4 +1,4 @@
-# Plataforma-Livro-Digital
+# Plataforma de Livros Digitais
 
 Baixe o arquivo e inicie:
 <br />
