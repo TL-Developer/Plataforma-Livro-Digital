@@ -10,14 +10,37 @@
 <body ng-controller="LivroController">
 	<div ng-include src="'partials/header.html'"></div>
 	
-	
+	<div class="container">
+		<canvas id="the-canvas"></canvas>	
+	</div>
+
 	<div ng-include src="'partials/footer.html'"></div>
+
+
+	<script src="../src/shared/util.js"></script>
+	<script src="../src/display/api.js"></script>
+	<script src="../src/display/metadata.js"></script>
+	<script src="../src/display/canvas.js"></script>
+	<script src="../src/display/webgl.js"></script>
+	<script src="../src/display/pattern_helper.js"></script>
+	<script src="../src/display/font_loader.js"></script>
+	<script src="../src/display/annotation_helper.js"></script>
+
+	<script>
+	// Specify the main script used to create a new PDF.JS web worker.
+	// In production, leave this undefined or change it to point to the
+	// combined `pdf.worker.js` file.
+	PDFJS.workerSrc = '../src/worker_loader.js';
+	</script>
+	<script src="js/hello.js"></script>
     
 	<script type="text/javascript" src="lib/angular/angular.js"></script>
     <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/controllers/livroController.js"></script>
+
+	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
 
