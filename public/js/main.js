@@ -1,1 +1,1 @@
-angular.module('LivroDigital', []);
+angular.module('LivroDigital', ['minhasDiretivas']);

@@ -1,18 +1,18 @@
 angular.module('LivroDigital').controller('LivroController', function($scope){
 
+	// FUNÇÕES DE PAGINAÇÃO DAS PÁGINAS
 	$scope.paginacaoSeguinte = function(){
-		paginacaoSeguinte();
+		$scope.$broadcast('paginacaoSeguinte');
 	};
-
 	$scope.paginacaoAnterior = function(){
-		paginacaoAnterior();
+		$scope.$broadcast('paginacaoAnterior');
 	};
 
-	$scope.zoomPdfOut = function(){
-		zoomPdfOut();
+	// FUNÇÕES DE ZOOM DAS PÁGINAS
+	$scope.zoomPaginasOut = function(){
+		$scope.$broadcast('zoomPaginasOut');
 	};
-
-	$scope.zoomPdfIn = function(){
-		zoomPdfIn();
+	$scope.zoomPaginasIn = function(){
+		$scope.$broadcast('zoomPaginasIn');
 	};
 });

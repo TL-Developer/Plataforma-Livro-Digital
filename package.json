@@ -11,7 +11,7 @@
   "window": {
     "title": "Livro Digital",
     "icon": "public/icon.png",
-    "toolbar": false,
+    "toolbar": true,
     "width": 1000,
     "height": 600,
     "min_width": 1000,

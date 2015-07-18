@@ -7,13 +7,13 @@
 	</div>
 	
 	<div class="paginacao">
-		<div class="setaEsquerda" ng-click="paginacaoAnterior()"><img src="img/paginacao_seta_esquerda.png" alt="Pagina anterior"></div>
+		<div class="setaEsquerda" ng-click="paginacaoAnterior()" pagina-anterior><img src="img/paginacao_seta_esquerda.png" alt="Pagina anterior"></div>
 
 		<form>
 			<input type="text" class="form-control" id="paginacao" value="capa">
 		</form>
 
-		<div class="setaDireita" ng-click="paginacaoSeguinte()"><img src="img/paginacao_seta_direita.png" alt="Pagina seguinte"></div>
+		<div class="setaDireita" ng-click="paginacaoSeguinte()" pagina-seguinte><img src="img/paginacao_seta_direita.png" alt="Pagina seguinte"></div>
 	</div>
 
 	<div class="opcionais">
@@ -26,9 +26,9 @@
 		<div class="zoom">
 			<h1>Zoom</h1>
 			<div class="controles">
-				<img src="img/zoom_out.png" alt="Diminuir Zoom" class="zoomOut" ng-click="zoomPdfOut()">
+				<img src="img/zoom_out.png" alt="Diminuir Zoom" class="zoomOut" ng-click="zoomPaginasOut()" zoom-out>
 				<h2 class="valor">100%</h2>
-				<img src="img/zoom_in.png" alt="Aumentar Zoom" class="zoomIn" ng-click="zoomPdfIn()">
+				<img src="img/zoom_in.png" alt="Aumentar Zoom" class="zoomIn" ng-click="zoomPaginasIn()" zoom-in>
 			</div>
 		</div>
 	</div>
